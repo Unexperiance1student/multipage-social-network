@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Главная'
+})
+
+<body>
+  <div class="wrapper" id="wrapper">
+    @@include('html/header.html', {})
+    @@include('html/sidebar.html', {})
+    @@include('html/main.html', {})
+  </div>
+  @@include('modal/contact_modal.html', {})
+  @@include('modal/sub_modal.html', {})
+  @@include('modal/video_modal.html', {})
+  @@include('html/js.html', {})
+</body>
+
+</html>
